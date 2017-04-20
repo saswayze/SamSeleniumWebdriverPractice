@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestAll">
+              <span class="suite-name border-passed">TestAll</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestAll">
+                    <span>C:\Users\samuel.swayze\Workspace-EclipseNeon\Selenium-ExerciseSet2\src\main\java\tests\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestAll">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestAll">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestAll">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestAll">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestAll">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestAll">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods passed suite-TestAll"> (hide)</a> <!-- hide-methods passed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods passed suite-TestAll"> (show)</a> <!-- show-methods passed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAll">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_1" hash-for-method="addNewDepartmentFailMsg">addNewDepartmentFailMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_1" hash-for-method="addNewDepartmentSuccessMsg">addNewDepartmentSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_5" hash-for-method="addNewEmployeeDeletedDepartment">addNewEmployeeDeletedDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_6" hash-for-method="addNewEmployeeDeletedTitle">addNewEmployeeDeletedTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_7" hash-for-method="addNewEmployeeFailMsg">addNewEmployeeFailMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_1" hash-for-method="addNewEmployeeNewDepartment">addNewEmployeeNewDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_2" hash-for-method="addNewEmployeeNewTitle">addNewEmployeeNewTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_4" hash-for-method="addNewEmployeeNewTitle">addNewEmployeeNewTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_7" hash-for-method="addNewEmployeeSuccessMsg">addNewEmployeeSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_3" hash-for-method="addNewEmployeeUpdatedDepartment">addNewEmployeeUpdatedDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_2" hash-for-method="addNewTitleFailMsg">addNewTitleFailMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_2" hash-for-method="addNewTitleSuccessMsg">addNewTitleSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_5" hash-for-method="deleteDepartmentSuccessMsg">deleteDepartmentSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_6" hash-for-method="deleteTitleSuccessMsg">deleteTitleSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_5" hash-for-method="departmentNotInList">departmentNotInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_8" hash-for-method="employeePageOnEmployeeLogin">employeePageOnEmployeeLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_1" hash-for-method="newDepartmentInList">newDepartmentInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_3" hash-for-method="newDepartmentInList">newDepartmentInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_7" hash-for-method="newEmployeePresentInEmployeeList">newEmployeePresentInEmployeeList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_7" hash-for-method="newEmployeePresentInManagersDirectEmployeeList">newEmployeePresentInManagersDirectEmployeeList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_2" hash-for-method="newTitleAppearsInList">newTitleAppearsInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_6" hash-for-method="titleNotInList">titleNotInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_3" hash-for-method="updateDepartmentFailMsg">updateDepartmentFailMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_3" hash-for-method="updateDepartmentSuccessMsg">updateDepartmentSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_5" hash-for-method="updateExistingEmployeeDeletedDepartment">updateExistingEmployeeDeletedDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_6" hash-for-method="updateExistingEmployeeDeletedTitle">updateExistingEmployeeDeletedTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_1" hash-for-method="updateExistingEmployeeNewDepartment">updateExistingEmployeeNewDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_4" hash-for-method="updateExistingEmployeeNewTitle">updateExistingEmployeeNewTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_2" hash-for-method="updateExistingEmployeeNewTitle">updateExistingEmployeeNewTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_3" hash-for-method="updateExistingEmployeeUpdatedDepartment">updateExistingEmployeeUpdatedDepartment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_4" hash-for-method="updateTitleFailMsg">updateTitleFailMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_4" hash-for-method="updateTitleSuccessMsg">updateTitleSuccessMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestAll" title="tests.Story1_4" hash-for-method="updatedTitleAppearsInList">updatedTitleAppearsInList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAll -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAll" class="panel TestAll">
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeDeletedDepartment">
+                  </a> <!-- addNewEmployeeDeletedDepartment -->
+                  <span class="method-name">addNewEmployeeDeletedDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteDepartmentSuccessMsg">
+                  </a> <!-- deleteDepartmentSuccessMsg -->
+                  <span class="method-name">deleteDepartmentSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="departmentNotInList">
+                  </a> <!-- departmentNotInList -->
+                  <span class="method-name">departmentNotInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeDeletedDepartment">
+                  </a> <!-- updateExistingEmployeeDeletedDepartment -->
+                  <span class="method-name">updateExistingEmployeeDeletedDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewDepartmentFailMsg">
+                  </a> <!-- addNewDepartmentFailMsg -->
+                  <span class="method-name">addNewDepartmentFailMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewDepartmentSuccessMsg">
+                  </a> <!-- addNewDepartmentSuccessMsg -->
+                  <span class="method-name">addNewDepartmentSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeNewDepartment">
+                  </a> <!-- addNewEmployeeNewDepartment -->
+                  <span class="method-name">addNewEmployeeNewDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newDepartmentInList">
+                  </a> <!-- newDepartmentInList -->
+                  <span class="method-name">newDepartmentInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeNewDepartment">
+                  </a> <!-- updateExistingEmployeeNewDepartment -->
+                  <span class="method-name">updateExistingEmployeeNewDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_7</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeFailMsg">
+                  </a> <!-- addNewEmployeeFailMsg -->
+                  <span class="method-name">addNewEmployeeFailMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeSuccessMsg">
+                  </a> <!-- addNewEmployeeSuccessMsg -->
+                  <span class="method-name">addNewEmployeeSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newEmployeePresentInEmployeeList">
+                  </a> <!-- newEmployeePresentInEmployeeList -->
+                  <span class="method-name">newEmployeePresentInEmployeeList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newEmployeePresentInManagersDirectEmployeeList">
+                  </a> <!-- newEmployeePresentInManagersDirectEmployeeList -->
+                  <span class="method-name">newEmployeePresentInManagersDirectEmployeeList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeNewTitle">
+                  </a> <!-- addNewEmployeeNewTitle -->
+                  <span class="method-name">addNewEmployeeNewTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewTitleFailMsg">
+                  </a> <!-- addNewTitleFailMsg -->
+                  <span class="method-name">addNewTitleFailMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewTitleSuccessMsg">
+                  </a> <!-- addNewTitleSuccessMsg -->
+                  <span class="method-name">addNewTitleSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newTitleAppearsInList">
+                  </a> <!-- newTitleAppearsInList -->
+                  <span class="method-name">newTitleAppearsInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeNewTitle">
+                  </a> <!-- updateExistingEmployeeNewTitle -->
+                  <span class="method-name">updateExistingEmployeeNewTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeDeletedTitle">
+                  </a> <!-- addNewEmployeeDeletedTitle -->
+                  <span class="method-name">addNewEmployeeDeletedTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTitleSuccessMsg">
+                  </a> <!-- deleteTitleSuccessMsg -->
+                  <span class="method-name">deleteTitleSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleNotInList">
+                  </a> <!-- titleNotInList -->
+                  <span class="method-name">titleNotInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeDeletedTitle">
+                  </a> <!-- updateExistingEmployeeDeletedTitle -->
+                  <span class="method-name">updateExistingEmployeeDeletedTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_8</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="employeePageOnEmployeeLogin">
+                  </a> <!-- employeePageOnEmployeeLogin -->
+                  <span class="method-name">employeePageOnEmployeeLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeUpdatedDepartment">
+                  </a> <!-- addNewEmployeeUpdatedDepartment -->
+                  <span class="method-name">addNewEmployeeUpdatedDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newDepartmentInList">
+                  </a> <!-- newDepartmentInList -->
+                  <span class="method-name">newDepartmentInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateDepartmentFailMsg">
+                  </a> <!-- updateDepartmentFailMsg -->
+                  <span class="method-name">updateDepartmentFailMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateDepartmentSuccessMsg">
+                  </a> <!-- updateDepartmentSuccessMsg -->
+                  <span class="method-name">updateDepartmentSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeUpdatedDepartment">
+                  </a> <!-- updateExistingEmployeeUpdatedDepartment -->
+                  <span class="method-name">updateExistingEmployeeUpdatedDepartment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Story1_4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewEmployeeNewTitle">
+                  </a> <!-- addNewEmployeeNewTitle -->
+                  <span class="method-name">addNewEmployeeNewTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateExistingEmployeeNewTitle">
+                  </a> <!-- updateExistingEmployeeNewTitle -->
+                  <span class="method-name">updateExistingEmployeeNewTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTitleFailMsg">
+                  </a> <!-- updateTitleFailMsg -->
+                  <span class="method-name">updateTitleFailMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateTitleSuccessMsg">
+                  </a> <!-- updateTitleSuccessMsg -->
+                  <span class="method-name">updateTitleSuccessMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updatedTitleAppearsInList">
+                  </a> <!-- updatedTitleAppearsInList -->
+                  <span class="method-name">updatedTitleAppearsInList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+        </div> <!-- panel TestAll -->
+        <div panel-name="test-xml-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\samuel.swayze\Workspace-EclipseNeon\Selenium-ExerciseSet2\src\main\java\tests\TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestAll&quot;&gt;
+  &lt;test name=&quot;Departments: New, Updated, Deleted&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Story1_1&quot;/&gt;
+      &lt;class name=&quot;tests.Story1_3&quot;/&gt;
+      &lt;class name=&quot;tests.Story1_5&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Departments: New, Updated, Deleted --&gt;
+  &lt;test name=&quot;Titles: New, Updated, Deleted&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Story1_2&quot;/&gt;
+      &lt;class name=&quot;tests.Story1_4&quot;/&gt;
+      &lt;class name=&quot;tests.Story1_6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Titles: New, Updated, Deleted --&gt;
+  &lt;test name=&quot;Add New Employee&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Story1_7&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add New Employee --&gt;
+  &lt;test name=&quot;Employee Page On Base Employee Login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Story1_8&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Employee Page On Base Employee Login --&gt;
+&lt;/suite&gt; &lt;!-- TestAll --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Departments: New, Updated, Deleted (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Titles: New, Updated, Deleted (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Add New Employee (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Employee Page On Base Employee Login (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAll');
+function tableData_TestAll() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addNewEmployeeFailMsg')
+data.setCell(0, 2, 'tests.Story1_7')
+data.setCell(0, 3, 38135);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'updateExistingEmployeeDeletedDepartment')
+data.setCell(1, 2, 'tests.Story1_5')
+data.setCell(1, 3, 36256);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addNewEmployeeDeletedTitle')
+data.setCell(2, 2, 'tests.Story1_6')
+data.setCell(2, 3, 32647);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'updateExistingEmployeeDeletedTitle')
+data.setCell(3, 2, 'tests.Story1_6')
+data.setCell(3, 3, 32420);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addNewEmployeeDeletedDepartment')
+data.setCell(4, 2, 'tests.Story1_5')
+data.setCell(4, 3, 32378);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addNewEmployeeNewTitle')
+data.setCell(5, 2, 'tests.Story1_2')
+data.setCell(5, 3, 25614);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addNewEmployeeNewTitle')
+data.setCell(6, 2, 'tests.Story1_4')
+data.setCell(6, 3, 25308);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addNewEmployeeUpdatedDepartment')
+data.setCell(7, 2, 'tests.Story1_3')
+data.setCell(7, 3, 24009);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addNewEmployeeNewDepartment')
+data.setCell(8, 2, 'tests.Story1_1')
+data.setCell(8, 3, 23967);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addNewEmployeeSuccessMsg')
+data.setCell(9, 2, 'tests.Story1_7')
+data.setCell(9, 3, 22026);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'departmentNotInList')
+data.setCell(10, 2, 'tests.Story1_5')
+data.setCell(10, 3, 20968);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'updateExistingEmployeeNewTitle')
+data.setCell(11, 2, 'tests.Story1_2')
+data.setCell(11, 3, 20916);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'titleNotInList')
+data.setCell(12, 2, 'tests.Story1_6')
+data.setCell(12, 3, 20844);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'updateExistingEmployeeNewDepartment')
+data.setCell(13, 2, 'tests.Story1_1')
+data.setCell(13, 3, 19586);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'updateExistingEmployeeNewTitle')
+data.setCell(14, 2, 'tests.Story1_4')
+data.setCell(14, 3, 14903);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'updateExistingEmployeeUpdatedDepartment')
+data.setCell(15, 2, 'tests.Story1_3')
+data.setCell(15, 3, 12270);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'updateTitleSuccessMsg')
+data.setCell(16, 2, 'tests.Story1_4')
+data.setCell(16, 3, 7563);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'addNewTitleSuccessMsg')
+data.setCell(17, 2, 'tests.Story1_2')
+data.setCell(17, 3, 7470);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'addNewTitleFailMsg')
+data.setCell(18, 2, 'tests.Story1_2')
+data.setCell(18, 3, 7249);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'newEmployeePresentInManagersDirectEmployeeList')
+data.setCell(19, 2, 'tests.Story1_7')
+data.setCell(19, 3, 5805);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'newEmployeePresentInEmployeeList')
+data.setCell(20, 2, 'tests.Story1_7')
+data.setCell(20, 3, 5431);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'addNewDepartmentFailMsg')
+data.setCell(21, 2, 'tests.Story1_1')
+data.setCell(21, 3, 4100);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'updateDepartmentSuccessMsg')
+data.setCell(22, 2, 'tests.Story1_3')
+data.setCell(22, 3, 3524);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'updateDepartmentFailMsg')
+data.setCell(23, 2, 'tests.Story1_3')
+data.setCell(23, 3, 3273);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'addNewDepartmentSuccessMsg')
+data.setCell(24, 2, 'tests.Story1_1')
+data.setCell(24, 3, 3041);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'updateTitleFailMsg')
+data.setCell(25, 2, 'tests.Story1_4')
+data.setCell(25, 3, 2894);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'deleteDepartmentSuccessMsg')
+data.setCell(26, 2, 'tests.Story1_5')
+data.setCell(26, 3, 2817);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'deleteTitleSuccessMsg')
+data.setCell(27, 2, 'tests.Story1_6')
+data.setCell(27, 3, 2187);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'newDepartmentInList')
+data.setCell(28, 2, 'tests.Story1_3')
+data.setCell(28, 3, 924);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'newDepartmentInList')
+data.setCell(29, 2, 'tests.Story1_1')
+data.setCell(29, 3, 852);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'newTitleAppearsInList')
+data.setCell(30, 2, 'tests.Story1_2')
+data.setCell(30, 3, 796);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'updatedTitleAppearsInList')
+data.setCell(31, 2, 'tests.Story1_4')
+data.setCell(31, 3, 738);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'employeePageOnEmployeeLogin')
+data.setCell(32, 2, 'tests.Story1_8')
+data.setCell(32, 3, 203);
+window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-TestAll">
+              </div> <!-- times-div-TestAll -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_1</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addNewDepartmentFailMsg</span>
+                <span class="method-start">8461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewDepartmentSuccessMsg</span>
+                <span class="method-start">12563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newDepartmentInList</span>
+                <span class="method-start">15606 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeNewDepartment</span>
+                <span class="method-start">16459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeNewDepartment</span>
+                <span class="method-start">40428 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">60015 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_3</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">61049 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateDepartmentFailMsg</span>
+                <span class="method-start">67856 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateDepartmentSuccessMsg</span>
+                <span class="method-start">71131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newDepartmentInList</span>
+                <span class="method-start">74657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeUpdatedDepartment</span>
+                <span class="method-start">75583 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeUpdatedDepartment</span>
+                <span class="method-start">99593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111864 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_5</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">112661 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteDepartmentSuccessMsg</span>
+                <span class="method-start">120967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">departmentNotInList</span>
+                <span class="method-start">123785 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeDeletedDepartment</span>
+                <span class="method-start">144754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeDeletedDepartment</span>
+                <span class="method-start">177133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213390 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_2</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">214338 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addNewTitleFailMsg</span>
+                <span class="method-start">221495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewTitleSuccessMsg</span>
+                <span class="method-start">228745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newTitleAppearsInList</span>
+                <span class="method-start">236216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeNewTitle</span>
+                <span class="method-start">237013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeNewTitle</span>
+                <span class="method-start">262628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">283545 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_4</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">284392 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">updateTitleFailMsg</span>
+                <span class="method-start">291728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateTitleSuccessMsg</span>
+                <span class="method-start">294623 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updatedTitleAppearsInList</span>
+                <span class="method-start">302187 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeNewTitle</span>
+                <span class="method-start">302926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeNewTitle</span>
+                <span class="method-start">328234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">343137 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_6</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">343901 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteTitleSuccessMsg</span>
+                <span class="method-start">351345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titleNotInList</span>
+                <span class="method-start">353533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeDeletedTitle</span>
+                <span class="method-start">374378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateExistingEmployeeDeletedTitle</span>
+                <span class="method-start">407026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">439447 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_7</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">440275 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeFailMsg</span>
+                <span class="method-start">447577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addNewEmployeeSuccessMsg</span>
+                <span class="method-start">485713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newEmployeePresentInEmployeeList</span>
+                <span class="method-start">507739 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">newEmployeePresentInManagersDirectEmployeeList</span>
+                <span class="method-start">513171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">518976 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Story1_8</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">519820 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">employeePageOnEmployeeLogin</span>
+                <span class="method-start">525258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">525462 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

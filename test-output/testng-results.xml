@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="33" passed="33">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="526211" started-at="2017-04-05T22:45:21Z" finished-at="2017-04-05T22:54:07Z">
+    <groups>
+    </groups>
+    <test name="Departments: New, Updated, Deleted" duration-ms="214279" started-at="2017-04-05T22:45:21Z" finished-at="2017-04-05T22:48:55Z">
+      <class name="tests.Story1_3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_3@4501b7af]" name="setUp" is-config="true" duration-ms="6806" started-at="2017-04-05T18:46:22Z" finished-at="2017-04-05T18:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateDepartmentFailMsg()[pri:0, instance:tests.Story1_3@4501b7af]" name="updateDepartmentFailMsg" duration-ms="3273" started-at="2017-04-05T18:46:29Z" finished-at="2017-04-05T18:46:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDepartmentFailMsg -->
+        <test-method status="PASS" signature="updateDepartmentSuccessMsg()[pri:0, instance:tests.Story1_3@4501b7af]" name="updateDepartmentSuccessMsg" duration-ms="3524" started-at="2017-04-05T18:46:32Z" finished-at="2017-04-05T18:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateDepartmentSuccessMsg -->
+        <test-method status="PASS" signature="newDepartmentInList()[pri:0, instance:tests.Story1_3@4501b7af]" name="newDepartmentInList" duration-ms="924" started-at="2017-04-05T18:46:35Z" finished-at="2017-04-05T18:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDepartmentInList -->
+        <test-method status="PASS" signature="addNewEmployeeUpdatedDepartment()[pri:0, instance:tests.Story1_3@4501b7af]" name="addNewEmployeeUpdatedDepartment" duration-ms="24009" started-at="2017-04-05T18:46:36Z" finished-at="2017-04-05T18:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeUpdatedDepartment -->
+        <test-method status="PASS" signature="updateExistingEmployeeUpdatedDepartment()[pri:0, instance:tests.Story1_3@4501b7af]" name="updateExistingEmployeeUpdatedDepartment" duration-ms="12270" started-at="2017-04-05T18:47:00Z" finished-at="2017-04-05T18:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeUpdatedDepartment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_3@4501b7af]" name="tearDown" is-config="true" duration-ms="797" started-at="2017-04-05T18:47:13Z" finished-at="2017-04-05T18:47:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_3 -->
+      <class name="tests.Story1_5">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_5@28d25987]" name="setUp" is-config="true" duration-ms="8306" started-at="2017-04-05T18:47:13Z" finished-at="2017-04-05T18:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteDepartmentSuccessMsg()[pri:0, instance:tests.Story1_5@28d25987]" name="deleteDepartmentSuccessMsg" duration-ms="2817" started-at="2017-04-05T18:47:22Z" finished-at="2017-04-05T18:47:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteDepartmentSuccessMsg -->
+        <test-method status="PASS" signature="departmentNotInList()[pri:0, instance:tests.Story1_5@28d25987]" name="departmentNotInList" duration-ms="20968" started-at="2017-04-05T18:47:25Z" finished-at="2017-04-05T18:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departmentNotInList -->
+        <test-method status="PASS" signature="addNewEmployeeDeletedDepartment()[pri:0, instance:tests.Story1_5@28d25987]" name="addNewEmployeeDeletedDepartment" duration-ms="32378" started-at="2017-04-05T18:47:46Z" finished-at="2017-04-05T18:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeDeletedDepartment -->
+        <test-method status="PASS" signature="updateExistingEmployeeDeletedDepartment()[pri:0, instance:tests.Story1_5@28d25987]" name="updateExistingEmployeeDeletedDepartment" duration-ms="36256" started-at="2017-04-05T18:48:18Z" finished-at="2017-04-05T18:48:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeDeletedDepartment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_5@28d25987]" name="tearDown" is-config="true" duration-ms="876" started-at="2017-04-05T18:48:54Z" finished-at="2017-04-05T18:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_5 -->
+      <class name="tests.Story1_1">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_1@c038203]" name="setUp" is-config="true" duration-ms="8458" started-at="2017-04-05T18:45:21Z" finished-at="2017-04-05T18:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewDepartmentFailMsg()[pri:0, instance:tests.Story1_1@c038203]" name="addNewDepartmentFailMsg" duration-ms="4100" started-at="2017-04-05T18:45:29Z" finished-at="2017-04-05T18:45:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewDepartmentFailMsg -->
+        <test-method status="PASS" signature="addNewDepartmentSuccessMsg()[pri:0, instance:tests.Story1_1@c038203]" name="addNewDepartmentSuccessMsg" duration-ms="3041" started-at="2017-04-05T18:45:33Z" finished-at="2017-04-05T18:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewDepartmentSuccessMsg -->
+        <test-method status="PASS" signature="newDepartmentInList()[pri:0, instance:tests.Story1_1@c038203]" name="newDepartmentInList" duration-ms="852" started-at="2017-04-05T18:45:36Z" finished-at="2017-04-05T18:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newDepartmentInList -->
+        <test-method status="PASS" signature="addNewEmployeeNewDepartment()[pri:0, instance:tests.Story1_1@c038203]" name="addNewEmployeeNewDepartment" duration-ms="23967" started-at="2017-04-05T18:45:37Z" finished-at="2017-04-05T18:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeNewDepartment -->
+        <test-method status="PASS" signature="updateExistingEmployeeNewDepartment()[pri:0, instance:tests.Story1_1@c038203]" name="updateExistingEmployeeNewDepartment" duration-ms="19586" started-at="2017-04-05T18:46:01Z" finished-at="2017-04-05T18:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeNewDepartment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_1@c038203]" name="tearDown" is-config="true" duration-ms="1033" started-at="2017-04-05T18:46:21Z" finished-at="2017-04-05T18:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_1 -->
+    </test> <!-- Departments: New, Updated, Deleted -->
+    <test name="Titles: New, Updated, Deleted" duration-ms="225904" started-at="2017-04-05T22:48:55Z" finished-at="2017-04-05T22:52:41Z">
+      <class name="tests.Story1_6">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_6@4883b407]" name="setUp" is-config="true" duration-ms="7444" started-at="2017-04-05T18:51:05Z" finished-at="2017-04-05T18:51:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteTitleSuccessMsg()[pri:0, instance:tests.Story1_6@4883b407]" name="deleteTitleSuccessMsg" duration-ms="2187" started-at="2017-04-05T18:51:12Z" finished-at="2017-04-05T18:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTitleSuccessMsg -->
+        <test-method status="PASS" signature="titleNotInList()[pri:0, instance:tests.Story1_6@4883b407]" name="titleNotInList" duration-ms="20844" started-at="2017-04-05T18:51:14Z" finished-at="2017-04-05T18:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleNotInList -->
+        <test-method status="PASS" signature="addNewEmployeeDeletedTitle()[pri:0, instance:tests.Story1_6@4883b407]" name="addNewEmployeeDeletedTitle" duration-ms="32647" started-at="2017-04-05T18:51:35Z" finished-at="2017-04-05T18:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeDeletedTitle -->
+        <test-method status="PASS" signature="updateExistingEmployeeDeletedTitle()[pri:0, instance:tests.Story1_6@4883b407]" name="updateExistingEmployeeDeletedTitle" duration-ms="32420" started-at="2017-04-05T18:52:08Z" finished-at="2017-04-05T18:52:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeDeletedTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_6@4883b407]" name="tearDown" is-config="true" duration-ms="793" started-at="2017-04-05T18:52:40Z" finished-at="2017-04-05T18:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_6 -->
+      <class name="tests.Story1_2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_2@5622fdf]" name="setUp" is-config="true" duration-ms="7157" started-at="2017-04-05T18:48:55Z" finished-at="2017-04-05T18:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewTitleFailMsg()[pri:0, instance:tests.Story1_2@5622fdf]" name="addNewTitleFailMsg" duration-ms="7249" started-at="2017-04-05T18:49:02Z" finished-at="2017-04-05T18:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewTitleFailMsg -->
+        <test-method status="PASS" signature="addNewTitleSuccessMsg()[pri:0, instance:tests.Story1_2@5622fdf]" name="addNewTitleSuccessMsg" duration-ms="7470" started-at="2017-04-05T18:49:10Z" finished-at="2017-04-05T18:49:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewTitleSuccessMsg -->
+        <test-method status="PASS" signature="newTitleAppearsInList()[pri:0, instance:tests.Story1_2@5622fdf]" name="newTitleAppearsInList" duration-ms="796" started-at="2017-04-05T18:49:17Z" finished-at="2017-04-05T18:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTitleAppearsInList -->
+        <test-method status="PASS" signature="addNewEmployeeNewTitle()[pri:0, instance:tests.Story1_2@5622fdf]" name="addNewEmployeeNewTitle" duration-ms="25614" started-at="2017-04-05T18:49:18Z" finished-at="2017-04-05T18:49:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeNewTitle -->
+        <test-method status="PASS" signature="updateExistingEmployeeNewTitle()[pri:0, instance:tests.Story1_2@5622fdf]" name="updateExistingEmployeeNewTitle" duration-ms="20916" started-at="2017-04-05T18:49:43Z" finished-at="2017-04-05T18:50:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeNewTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_2@5622fdf]" name="tearDown" is-config="true" duration-ms="847" started-at="2017-04-05T18:50:04Z" finished-at="2017-04-05T18:50:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_2 -->
+      <class name="tests.Story1_4">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="setUp" is-config="true" duration-ms="7336" started-at="2017-04-05T18:50:05Z" finished-at="2017-04-05T18:50:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="updateTitleFailMsg()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="updateTitleFailMsg" duration-ms="2894" started-at="2017-04-05T18:50:12Z" finished-at="2017-04-05T18:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTitleFailMsg -->
+        <test-method status="PASS" signature="updateTitleSuccessMsg()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="updateTitleSuccessMsg" duration-ms="7563" started-at="2017-04-05T18:50:15Z" finished-at="2017-04-05T18:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTitleSuccessMsg -->
+        <test-method status="PASS" signature="updatedTitleAppearsInList()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="updatedTitleAppearsInList" duration-ms="738" started-at="2017-04-05T18:50:23Z" finished-at="2017-04-05T18:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatedTitleAppearsInList -->
+        <test-method status="PASS" signature="addNewEmployeeNewTitle()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="addNewEmployeeNewTitle" duration-ms="25308" started-at="2017-04-05T18:50:24Z" finished-at="2017-04-05T18:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeNewTitle -->
+        <test-method status="PASS" signature="updateExistingEmployeeNewTitle()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="updateExistingEmployeeNewTitle" duration-ms="14903" started-at="2017-04-05T18:50:49Z" finished-at="2017-04-05T18:51:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateExistingEmployeeNewTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_4@7d9d1a19]" name="tearDown" is-config="true" duration-ms="764" started-at="2017-04-05T18:51:04Z" finished-at="2017-04-05T18:51:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_4 -->
+    </test> <!-- Titles: New, Updated, Deleted -->
+    <test name="Add New Employee" duration-ms="79511" started-at="2017-04-05T22:52:41Z" finished-at="2017-04-05T22:54:01Z">
+      <class name="tests.Story1_7">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_7@548e7350]" name="setUp" is-config="true" duration-ms="7302" started-at="2017-04-05T18:52:41Z" finished-at="2017-04-05T18:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewEmployeeFailMsg()[pri:0, instance:tests.Story1_7@548e7350]" name="addNewEmployeeFailMsg" duration-ms="38135" started-at="2017-04-05T18:52:48Z" finished-at="2017-04-05T18:53:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeFailMsg -->
+        <test-method status="PASS" signature="addNewEmployeeSuccessMsg()[pri:0, instance:tests.Story1_7@548e7350]" name="addNewEmployeeSuccessMsg" duration-ms="22026" started-at="2017-04-05T18:53:26Z" finished-at="2017-04-05T18:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewEmployeeSuccessMsg -->
+        <test-method status="PASS" signature="newEmployeePresentInEmployeeList()[pri:0, instance:tests.Story1_7@548e7350]" name="newEmployeePresentInEmployeeList" duration-ms="5431" started-at="2017-04-05T18:53:48Z" finished-at="2017-04-05T18:53:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployeePresentInEmployeeList -->
+        <test-method status="PASS" signature="newEmployeePresentInManagersDirectEmployeeList()[pri:0, instance:tests.Story1_7@548e7350]" name="newEmployeePresentInManagersDirectEmployeeList" duration-ms="5805" started-at="2017-04-05T18:53:54Z" finished-at="2017-04-05T18:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEmployeePresentInManagersDirectEmployeeList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_7@548e7350]" name="tearDown" is-config="true" duration-ms="809" started-at="2017-04-05T18:54:00Z" finished-at="2017-04-05T18:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_7 -->
+    </test> <!-- Add New Employee -->
+    <test name="Employee Page On Base Employee Login" duration-ms="6378" started-at="2017-04-05T22:54:01Z" finished-at="2017-04-05T22:54:07Z">
+      <class name="tests.Story1_8">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.Story1_8@464bee09]" name="setUp" is-config="true" duration-ms="5438" started-at="2017-04-05T18:54:01Z" finished-at="2017-04-05T18:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="employeePageOnEmployeeLogin()[pri:0, instance:tests.Story1_8@464bee09]" name="employeePageOnEmployeeLogin" duration-ms="203" started-at="2017-04-05T18:54:06Z" finished-at="2017-04-05T18:54:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeePageOnEmployeeLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.Story1_8@464bee09]" name="tearDown" is-config="true" duration-ms="736" started-at="2017-04-05T18:54:06Z" finished-at="2017-04-05T18:54:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Story1_8 -->
+    </test> <!-- Employee Page On Base Employee Login -->
+  </suite> <!-- TestAll -->
+</testng-results>

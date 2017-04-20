@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+	<test name="Departments: New, Updated, Deleted">
+		<classes>
+			<class name="tests.Story1_1" />
+			<class name="tests.Story1_3" />
+			<class name="tests.Story1_5" />
+		</classes>
+	</test>
+	<test name="Titles: New, Updated, Deleted">
+		<classes>
+			<class name="tests.Story1_2" />
+			<class name="tests.Story1_4" />
+			<class name="tests.Story1_6" />
+		</classes>
+	</test>
+	<test name="Add New Employee">
+		<classes>
+			<class name="tests.Story1_7" />
+		</classes>
+	</test>
+	<test name="Employee Page On Base Employee Login">
+		<classes>
+			<class name="tests.Story1_8" />
+		</classes>
+	</test>
+</suite>
